@@ -50,8 +50,8 @@
 <span style="color: #009900;">&lt;Component <span style="color: #66cc66;">/</span>&gt;</span></pre>
 <br>
 
-    <p>Prop terdapat spread yaitu kita mengisi Prop dengan mengatur id dari Array Associative, untung menggunakan spread Prop kita harus menyamakan id dengan variable dari component.</p>
-<pre class="html5" style="font-family:monospace;"><span style="color: #808080; font-style: italic;">&lt;!-- Component.svelte --&gt;</span>
+    <p>Prop terdapat spread yaitu kita mengisi Prop dengan mengatur index dari Array Associative, untung menggunakan spread Prop kita harus menyamakan index array dengan variable dari component.</p>
+<pre class="html5" style="font-family:monospace;"><span style="color: #808080; font-style: italic;">&lt;!-- Info.svelte --&gt;</span>
 <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">script</span>&gt;</span>
 	{`export let nama
 	export let alamat

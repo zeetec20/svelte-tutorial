@@ -45,7 +45,7 @@ npm run dev</pre>
     </LazyLoadContainer>
     <br>
     <br>
-    <p>Didalam sana terdapat App.svelte dan main.js, file App merupakan tempat diamana kita akan menulis program, misal kita akan menampilkan "Hello World!" di project kita cukup menuliskan seperti html.</p>
+    <p>Didalam sana terdapat App.svelte dan main.js, file App merupakan tempat diamana kita akan menulis program, misal kita akan menampilkan text "Hello World!" di project kita cukup dengan menuliskan seperti html.</p>
 <pre class="html4strict" style="font-family:monospace;"><span style="color: #808080; font-style: italic;">&lt;!-- App.svelte --&gt;</span>
 <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">h1</span>&gt;</span>Hello World!<span style="color: #009900;">&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">h1</span>&gt;</span></pre>
 
@@ -74,7 +74,7 @@ npm run dev</pre>
 	}`}
 <span style="color: #009900;">&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">style</span>&gt;</span></pre>
 
-    <p>Kita juga bisa membuat component, intinya kita akan memecah bagian-bagian dari program kita. Kita akan membuat file baru Text.svelte yang berisi tag 'p'.</p>
+    <p>Kita juga bisa membuat component, intinya kita akan memecah bagian-bagian dari program kita. Kita akan membuat file baru Text.svelte yang berisi tag 'p' dan coba lihat hasilnya, nanti akan menampilkan text dari tag 'h1' file App.svelte kemudian dibawahnya ada juga text dari file Text.svelte.</p>
 <pre class="html5" style="font-family:monospace;"><span style="color: #808080; font-style: italic;">&lt;!-- App.svelte --&gt;</span>
 <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">script</span>&gt;</span>
 	import Text from './Text.svelte'

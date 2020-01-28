@@ -15,7 +15,7 @@
 <div class="container mt-3">
     <h3>Logic</h3>
     <br>
-    <p>Svelte juka memilikki operator logic yang bisa digunakaan di html, pada dasarnya html tidak memiliki Logic Block teteapi dengan menggunakan Svelte anda bisa menggunakannnya.</p>
+    <p>Svelte juka memilikki operator logic yang bisa digunakaan di html, pada dasarnya html tidak memiliki operator logic tetapi dengan menggunakan Svelte anda bisa menambahkan operator logic seperti IF di html anda.</p>
     <ul>
         <li><a href=" " on:click={() => id = 1}>If Block</a></li>
         <li><a href=" " on:click={() => id = 2}>Else Block</a></li>
@@ -28,7 +28,7 @@
     <div class="logic1 {id != 1 ? 'hidden' : ''}">
         <h4>If Block</h4>
         <br>
-        <p>If Block di svelte tidak berbeda dengan operator if di pemrogramman lain, sistem nya sama disini, namun yang akan digunakan dalam perbandingan adalah variable yang ada di javascript.</p>
+        <p>If Block di svelte tidak berbeda dengan operator if di pemrogramman lain, sistem nya sama namun yang akan digunakan dalam perbandingan adalah variable yang ada di javascript.</p>
 <pre class="html5" style="font-family:monospace;"><span style="color: #808080; font-style: italic;">&lt;!-- App.svelte --&gt;</span>
 <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">script</span>&gt;</span>
 	let click = 3

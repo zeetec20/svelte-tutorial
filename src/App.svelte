@@ -35,6 +35,7 @@
 	let params
 	let place
 	let next
+	let timer2 = 0
 	let previous
 	let blur = 50
 	let tutorial = false
@@ -46,7 +47,7 @@
 	import Svelte from './router/Svelte.svelte'
 	import NotFound from './router/404.svelte'
 
-	import T_Instalation from  './router/tutorial/Instalation.svelte'
+	import T_Installation from  './router/tutorial/Installation.svelte'
 	import T_Introduction from './router/tutorial/Introduction.svelte'
 	import T_Reactivity from './router/tutorial/Reactivity.svelte'
 	import T_Props from './router/tutorial/Props.svelte'
@@ -74,9 +75,9 @@
 			'url': '/tutorial',
 		},
 		{
-			'name': 'Instalation',
+			'name': 'Installation',
 			'url': '/tutorial/instalation',
-			'com': T_Instalation
+			'com': T_Installation
 		},
 		{
 			'name': 'Introduction',
@@ -158,10 +159,9 @@
 	})
 
 	let timer = setInterval(() => {
-		if (document.readyState == 'complete') {
-			if (document.readyState == 'complete') {
-				blur = 0
-			}
+		timer2 += 1
+		if (document.readyState == 'complete' || timer2 == 5) {
+			blur = 0
 			clearInterval(timer)
 		}
 	}, 100);

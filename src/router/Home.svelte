@@ -11,7 +11,7 @@
         },
         {
             'title': 'Cara menggunakan svelte ?',
-            'text': 'Svelte adalah framewrok yang berdiri sendiri, yang diamana kita menulis di file App.svelte.',
+            'text': 'Svelte adalah framewrok yang berdiri sendiri, yang dimana kita menulis di file App.svelte.',
             'button': 'Belajar',
             'url': '/tutorial'
         }

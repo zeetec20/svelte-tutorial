@@ -5,16 +5,16 @@
 </script>
 
 <div class="container mt-3">
-    <h3>Instalation</h3>
+    <h3>Installation</h3>
     <br>
-    <p>Sebelum mepelajari svelte kita terlebih dahulu mempersiapkan software yang perlu kita install</p>
+    <p>Sebelum mepelajari svelte kita terlebih dahulu mempersiapkan software yang perlu kita install.</p>
     <ol>
         <li><a href=" " style="cursor: pointer;" on:click={() => {node = true, npm = false, svelte = false}}>Node.Js</a></li>
         <li><a href=" " style="cursor: pointer;" on:click={() => {node = false, npm = true, svelte = false}}>NPM</a></li>
         <li><a href=" " style="cursor: pointer;" on:click={() => {node = false, npm = false, svelte = true}}>Svelte</a></li>
     </ol>
 
-    <div class="instalation mt-5">
+    <div class="installation mt-5">
         <div class={'node', node == false ? 'none' : ''}>
             <h4>Node.Js</h4>
             <p>
@@ -23,13 +23,13 @@
             </p>
             <br>
             <h5>Windows</h5>
-            <p>Untuk instalation di Windows cukup mengunduh installer yang telah disediakan oleh Node.Js. Silahkan buka halaman <a href="https://nodejs.org/en/download/" target="_blank" rel="noopener noreferrer">download Node.Js</a> 
-            dan download Node.Js untuk windows. Setelah Selesai mendownload Node.Js lakukan instaltion Node.Js sesuai panduan.
+            <p>Untuk installation di Windows cukup mengunduh installer yang telah disediakan oleh Node.Js. Silahkan buka halaman <a href="https://nodejs.org/en/download/" target="_blank" rel="noopener noreferrer">download Node.Js</a> 
+            dan download Node.Js untuk windows. Setelah selesai mendownload Node.Js lakukan installation Node.Js sesuai panduan.
             </p>
             <br>
             <h5>Linux</h5>
-            <p>Instalation di Linux sedikit berbeda dengan Windows
-            Silahkan bukan terminal dan jalankan peritah tersebut, pilihlah Node.Js sesuai kebutuhan anda.</p>
+            <p>Installation di Linux sedikit berbeda dengan Windows
+            Silahkan buka terminal dan jalankan perintah tersebut, pilihlah Node.Js sesuai kebutuhan anda.</p>
 
 <pre class="bash" style="font-family:monospace;">
 <span style="color: #666666; font-style: italic;">#Node.js v13.x:</span>
@@ -61,7 +61,7 @@ curl <span style="color: #660033;">-sL</span> https:<span style="color: #000000;
             <h4>NPM</h4>
             <p>
             NPM (Node Package Manager) seperti yang saya bilang tadi, NPM digunakan untuk memanajemen librari yang dibutuhkan.
-            Sebenarnya saat installasi Node.Js, NPM akan ikut terinsatall, namun meski  sudah terinstall NPM perlu diperbarui, cukup dengan mengeksekusi perintah dibwah NPM akan diperbarui.
+            Sebenarnya saat installasi Node.Js, NPM akan ikut terinsatall, namun meski  sudah terinstall NPM perlu diperbarui, cukup dengan mengeksekusi perintah dibawah ini NPM akan diperbarui.
             </p>
 
 <pre class="bash" style="font-family:monospace;">npm <span style="color: #c20cb9; font-weight: bold;">install</span> npm<span style="color: #000000; font-weight: bold;">@</span>latest <span style="color: #660033;">-g</span></pre>
@@ -70,8 +70,7 @@ curl <span style="color: #660033;">-sL</span> https:<span style="color: #000000;
         <div class={'svelte', svelte == false ? 'none' : ''}>
             <h4>Svelte</h4>
             <p>
-            Node.Js dan NPM sudah terinstall sekarang tinggal menginstall Svelte, untuk menginstall kita akan menggunakan NPM.
-            dan NPM menyediakan 2 cara untuk install librari atau framework, untuk perintah installasi bisa dilihat dibawah.
+            Node.Js dan NPM sudah terinstall sekarang tinggal menginstall <a target="_blank" rel="noopener" href="https://svelte.dev/">Svelte</a>, untuk menginstall Svelte kita akan menggunakan NPM. Silahkan jalankan perintah installasi dibawah ini.
             </p>
 
 <pre class="bash" style="font-family:monospace;">npm init
@@ -86,7 +85,7 @@ npm <span style="color: #c20cb9; font-weight: bold;">install</span> svelte</pre>
         display: none;
     }
 
-    .instalation p{
+    .installation p{
         width: 80%;
     }
 </style>

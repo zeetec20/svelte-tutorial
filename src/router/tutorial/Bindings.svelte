@@ -21,7 +21,8 @@
     <br>
     
     <p>Sekarang kita coba untuk implementasi binding menggunakan checkbox untuk menampilkan text dan menutup text. Binding di checkbox biasahnya ditaruh dalam parameter checked karena yang berubah saat kita berinteraksi dengan checkbox hanyalah parameter checked.</p>
-<pre class="html5" style="font-family:monospace;"><span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">script</span>&gt;</span>
+<pre class="html5" style="font-family:monospace;"><span style="color: #808080; font-style: italic;">&lt;!-- App.svelte --&gt;</span>
+<span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">script</span>&gt;</span>
 	let show = false;
 <span style="color: #009900;">&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">script</span>&gt;</span>
 &nbsp;
@@ -34,7 +35,8 @@
     <br>
 
     <p>Dalam binding terdapat binding group yang dikususkan untuk input type radio dan checkbox, cara kerja binding group adalah ketika kita menginputkan melalui input radio / checkbox maka akan diteruskan ke variable yang ditentukan.</p>
-<pre class="html5" style="font-family:monospace;"><span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">script</span>&gt;</span>
+<pre class="html5" style="font-family:monospace;"><span style="color: #808080; font-style: italic;">&lt;!-- App.svelte --&gt;</span>
+<span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">script</span>&gt;</span>
 	let selectGender
 	let gender = ['perempuan', 'laki-laki']
 &nbsp;
